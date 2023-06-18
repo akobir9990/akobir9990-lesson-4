@@ -1,0 +1,78 @@
+.section .container {
+  display: flex;
+}
+.sidebar {
+  width: 220px;
+  height: 85vh;
+  background: #e7e9eb;
+}
+.main {
+  margin: 50px;
+  width: 100%;
+}
+.main h1 {
+  font-size: 40px;
+  font-weight: 450;
+}
+.contentBtn {
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  background: green;
+  border-radius: 15px;
+  border: none;
+}
+.contentControlPanel {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.example {
+  background: #e7e9eb;
+  padding: 30px 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+.example h1 {
+  padding: 20px 0;
+}
+.example h2 {
+  padding: 20px 0;
+}
+.example .learnCodeBlock {
+  margin: 20px 0;
+  padding: 20px 0;
+  background: white;
+  border-left: 10px solid green;
+  border-radius: 15px;
+}
+.example .learnCodeBlock img {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.btn_tryItYourSelf {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.example p {
+  padding: 20px 0;
+}
+.moreDetails p {
+  line-height: 40px;
+}
+.moreDetailsActive {
+  background: #fff3f3;
+  color: red;
+}
+.learn {
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 40px;
+  background: #d9eee1;
+}
